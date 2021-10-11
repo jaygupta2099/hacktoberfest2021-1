@@ -121,7 +121,7 @@ def main():
         print("Tie game")
 
 while True:
-    x = input("Do you want to play? (y/n): ")
+    x = input("Do you want to play? (Yes/No): ")
     if x.lower() == 'y':
         board = [' ' for x in range(10)]
         print('--------------------')
